@@ -1,9 +1,9 @@
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=00c6ff,0072ff&height=280&section=header&text=CogniPath%20Analytics&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Next-Gen%20Academic%20Prediction%20Engine&descAlignY=60&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=00c6ff,0072ff&height=280&section=header&text=CogniPath%20Analytics&fontSize=45&fontColor=C2BAB3&animation=fadeIn&fontAlignY=35&desc=Next-Gen%20Academic%20Prediction%20Engine&descAlignY=60&descAlign=50" width="100%"/>
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0072ff&center=true&vCenter=true&width=600&lines=Initializing+Cognitive+Pipeline...;Analyzing+Sleep+vs+Study+Efficiency...;Detecting+Academic+Burnout...;Gradient+Boosting+Model+DEPLOYED." />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=C2BAB3&center=true&vCenter=true&width=600&lines=Initializing+Cognitive+Pipeline...;Analyzing+Sleep+vs+Study+Efficiency...;Detecting+Academic+Burnout...;Gradient+Boosting+Model+DEPLOYED." />
   </a>
 
   <br/>

@@ -1,48 +1,59 @@
-<div align="center">
+# 🎓 CogniPath Analytics Engine
 
-  <a href="https://github.com/YourUsername/CogniPath">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=45&pause=1000&color=BC13FE&background=00000000&center=true&vCenter=true&width=800&lines=COGNIPATH+ENGINE;AI+STUDENT+PERFORMANCE+PREDICTOR;GRADIENT+BOOSTING+ARCHITECTURE;NEXT-GEN+DATA+ANALYTICS" alt="Typing SVG" />
-  </a>
+> **An AI-powered predictive system designed to forecast academic performance by analyzing student behavioral metrics like sleep efficiency and attendance risk.**
 
-  <p align="center">
-    <img src="https://img.shields.io/badge/PYTHON-3.8%2B-000000?style=for-the-badge&logo=python&logoColor=bc13fe" />
-    <img src="https://img.shields.io/badge/SCIKIT_LEARN-ACCELERATED-000000?style=for-the-badge&logo=scikit-learn&logoColor=00ff41" />
-    <img src="https://img.shields.io/badge/PANDAS-ENGINEERING-000000?style=for-the-badge&logo=pandas&logoColor=bc13fe" />
-    <img src="https://img.shields.io/badge/ARCH-GRADIENT%20BOOSTING-000000?style=for-the-badge&logo=google-cloud&logoColor=00ff41" />
-  </p>
-
-  <img src="https://via.placeholder.com/1000x300/1a1a1a/bc13fe?text=PREDICT+%7C+ANALYZE+%7C+OPTIMIZE" width="100%" alt="Banner" />
-
-</div>
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/AI_Engine-Scikit--Learn-orange?logo=scikitlearn&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Production_Ready-success)
 
 ---
 
-### 🔮 System Architecture
-> **Logic Flow:** *Raw Data ➔ Behavioural ETL ➔ Ensemble Learning ➔ Risk Prediction*
+## 🚀 Project Mission
+Traditional education systems are **reactive**—they wait for a student to fail. **CogniPath** is **proactive**. 
 
-```mermaid
-graph LR
-  subgraph CORE_ENGINE [⚡ COGNIPATH CORE]
-    A[💾 train.csv] -->|Stream| B(⚙️ Preprocessing.py)
-    B -->|Feature Eng| C{📐 DataEngineer Class}
-    C -->|Tensors| D[🧠 Model_Engine.py]
-  end
-  
-  subgraph VISUALIZATION [📊 INSIGHT LAYER]
-    D -->|Predictions| E[📁 model_results.csv]
-    E -->|Render| F[📈 Analytics_Dashboard.ipynb]
-  end
+This engine uses **Ensemble Machine Learning** to correlate lifestyle habits (Sleep, Study Efficiency, Attendance) with future academic outcomes. It identifies "At-Risk" students *before* exams, allowing for timely intervention.
 
-  style CORE_ENGINE fill:#1a1a1a,stroke:#bc13fe,stroke-width:2px,color:#fff
-  style VISUALIZATION fill:#000000,stroke:#00ff41,stroke-width:2px,color:#fff
-  style D fill:#bc13fe,color:#000
-  style F fill:#00ff41,color:#000
-📂 Repository IntelFileFunctionalityTech Stackmain.py🚀 System Orchestrator (Entry Point)Pythonmodel_engine.py🧠 AI Core (Gradient Boosting Regressor)Sklearn Pipelinepreprocessing.py⚙️ ETL Pipeline (Cleaning & Features)Pandas, NumPyAnalytics_Dashboard📊 Visual Intelligence (Interactive UI)Seaborn, Jupytertrain.csv💾 Training Data (126k Records)CSV🚀 Getting StartedInitialize the Engine in 3 Steps:Bash# 1. Clone the Repository
-git clone [https://github.com/YourUsername/CogniPath.git](https://github.com/YourUsername/CogniPath.git)
+---
 
-# 2. Install Elite Dependencies
-pip install -r requirements.txt
+## ⚙️ Engineering Architecture
 
-# 3. Ignite the Pipeline
-python main.py
-System Output:[✔] Data Engineering... COMPLETE[✔] Gradient Boosting Training... COMPLETE[✔] Accuracy Telemetry: 94% R²📊 Analytics PreviewDashboard Theme: Neon Night (#bc13fe / #00ff41)Visual AssetInsight TypeMetric Tracked🔴 Risk HeatmapRisk SegmentationAttendance vs. Failure Probability⚡ Efficiency ScatterBehavioral AnalysisStudy Hours vs. Sleep Ratio🧬 Course DistributionDemographicsGender & Course Success Rates<div align="center"><b>👤 AUTHOR: [YOUR NAME]</b><i>BS Data Science | AI Enthusiast</i><a href="https://www.google.com/search?q=https://github.com/YourUsername"><img src="https://www.google.com/search?q=https://img.shields.io/badge/GITHUB-FOLLOW_ME-181717%3Fstyle%3Dsocial%26logo%3Dgithub" /></a></div>
+The system follows a strict **Modular Object-Oriented Design**:
+
+### 1. Data Engineering (`preprocessing.py`)
+This module handles raw data ingestion and advanced feature extraction:
+* **Cognitive Efficiency Ratio:** Calculates `Study Hours / (Sleep Hours + 1)` to measure effective learning vs. burnout.
+* **Dynamic Risk Segmentation:** Automatically flags students as "High Risk" if `class_attendance` drops below 75%.
+
+### 2. AI Model Engine (`model_engine.py`)
+Instead of a simple linear model, we utilize **Gradient Boosting Regressor**:
+* **Pipeline Integration:** Wraps scaling and One-Hot Encoding within a Scikit-Learn Pipeline to prevent data leakage.
+* **Error Correction:** Uses an ensemble of decision trees to correct prediction errors sequentially.
+
+### 3. Orchestration (`main.py`)
+The central controller that:
+1.  Initiates the Data Pipeline.
+2.  Trains the Model on `train.csv`.
+3.  Evaluates performance (R² Score).
+4.  Exports predictions to `model_results_for_dashboard.csv` for analysis.
+
+---
+
+## 🛠️ Tech Stack
+
+| Component | Technology | Usage |
+| :--- | :--- | :--- |
+| **Language** | `Python` | Core Application Logic |
+| **ML Library** | `Scikit-Learn` | Gradient Boosting, Pipelines, ColumnTransformer |
+| **Data Processing** | `Pandas / NumPy` | Vectorized Data Manipulation |
+| **Data Source** | `CSV` | Structured Student Data |
+
+---
+
+## ⚡ How to Run This Project
+
+Follow these steps to deploy the engine on your local machine:
+
+**1. Clone the Repository**
+```bash
+git clone [https://github.com/Abu-Sameer-66/CogniPath-Analytics-Engine.git](https://github.com/Abu-Sameer-66/CogniPath-Analytics-Engine.git)
+cd CogniPath-Analytics-Engine

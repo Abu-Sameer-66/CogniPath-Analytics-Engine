@@ -36,6 +36,7 @@ By engineering a custom **Cognitive Efficiency Ratio**, this engine correlates a
 | **🌲 Ensemble Learning** | **Gradient Boosting Regressor:** Uses a sequence of decision trees where each tree corrects the errors of the previous one. |
 | **⚙️ Pipeline Automation** | **Scikit-Learn Pipelines:** Encapsulates Scaling (`StandardScaler`) and Encoding (`OneHotEncoder`) to prevent data leakage. |
 
+
 ---
 
 ## 🛠️ System Architecture

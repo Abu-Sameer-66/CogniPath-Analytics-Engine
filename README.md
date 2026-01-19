@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Python-3.9-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
   <img src="https://img.shields.io/badge/Architecture-Modular_OOP-000000?style=for-the-badge&logo=github&logoColor=cyan" />
-  <img src="https://img.shields.io/badge/Matplotlib-F7931E?style=for-the-badge&logo=matplotlib&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-45876A?style=for-the-badge&logo=matplotlib&logoColor=white" />
 </div>
 
 ---

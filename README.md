@@ -6,7 +6,6 @@
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=C2BAB3&center=true&vCenter=true&width=600&lines=Initializing+Cognitive+Pipeline...;Analyzing+Sleep+vs+Study+Efficiency...;Detecting+Academic+Burnout...;Gradient+Boosting+Model+DEPLOYED." />
   </a>
   
-
   <br/>
 
   <img src="https://img.shields.io/badge/Python-3.9-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -35,7 +34,6 @@ By engineering a custom **Cognitive Efficiency Ratio**, this engine correlates a
 | **🛡️ Risk Segmentation** | **Dynamic Vectorization:** Automatically flags students as `High Risk` if attendance $< 75\%$ using NumPy vectorized operations. |
 | **🌲 Ensemble Learning** | **Gradient Boosting Regressor:** Uses a sequence of decision trees where each tree corrects the errors of the previous one. |
 | **⚙️ Pipeline Automation** | **Scikit-Learn Pipelines:** Encapsulates Scaling (`StandardScaler`) and Encoding (`OneHotEncoder`) to prevent data leakage. |
-
 
 ---
 

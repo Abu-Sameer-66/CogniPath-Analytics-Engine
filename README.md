@@ -37,7 +37,7 @@ By engineering a custom **Cognitive Efficiency Ratio**, this engine correlates a
 
 ---
 
-## 🛠️ System Architecture
+## 🛠️ System AND Architecture
 *Live Data Flow Visualization (Auto-Generated):*
 
 ```mermaid

@@ -2,7 +2,6 @@
 
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&ColorList=00c6ff,0072ff,8F246A,814B32,337064&height=280&section=header&text=CogniPath%20Analytics&fontSize=45&fontColor=CAD4E2&animation=fadeIn&fontAlignY=35&desc=Next-Gen%20Academic%20Prediction%20Engine&descAlignY=60&descAlign=50" width="100%"/>
 
-
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=CAD4E2&center=true&vCenter=true&width=600&lines=Initializing+Cognitive+Pipeline...;Analyzing+Sleep+vs+Study+Efficiency...;Detecting+Academic+Burnout...;Gradient+Boosting+Model+DEPLOYED." />
   </a>

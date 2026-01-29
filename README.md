@@ -13,7 +13,9 @@
   <img src="https://img.shields.io/badge/Architecture-Modular_OOP-000000?style=for-the-badge&logo=github&logoColor=cyan" />
   <img src="https://img.shields.io/badge/Matplotlib-45876A?style=for-the-badge&logo=matplotlib&logoColor=white" />
 </div>
+
 ---
+
 ## 🚀 Mission: Decoding Student Success
 > **"Grades are not just numbers; they are the output of a lifestyle algorithm."**
 

@@ -16,7 +16,6 @@
 
 ---
 
-
 ## 🚀 Mission: Decoding Student Success
 > **"Grades are not just numbers; they are the output of a lifestyle algorithm."**
 

@@ -5,6 +5,7 @@
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=CAD4E2&center=true&vCenter=true&width=600&lines=Initializing+Cognitive+Pipeline...;Analyzing+Sleep+vs+Study+Efficiency...;Detecting+Academic+Burnout...;Gradient+Boosting+Model+DEPLOYED." />
   </a>
+
   
   <br/>
   <img src="https://img.shields.io/badge/Python-3.9-3776AB?style=for-the-badge&logo=python&logoColor=white" />
